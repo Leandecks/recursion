@@ -8,4 +8,12 @@ function fibsRec(n) {
       .reduce((a, b) => a + b, 0));
 }
 
-console.log(fibsRec(7))
+// function fibsRec(n) {
+//   if (n < 2) {
+//     return n;
+//   } else {
+//     return fibsRec(n - 1) + fibsRec(n - 2);
+//   }
+// }
+
+console.log(fibsRec(5))
